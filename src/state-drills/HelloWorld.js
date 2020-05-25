@@ -6,8 +6,8 @@ export default class HelloWorld extends Component {
     };
     render() {
         return ( 
-        <div className="helloworld">
-            <p className="hello-who">Hello, {this.state.who}</p>
+        <div className="HelloWorld">
+            <p>Hello, {this.state.who}</p>
             <button 
             onclick={() => this.setState({who: 'world' })}>World</button>
             <button

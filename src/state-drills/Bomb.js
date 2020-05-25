@@ -5,7 +5,6 @@ export default class Bomb extends Component {
         count: 0
     };
     componentDidMount() {
-        console.log('componentDidMount')
         this.interval = setInterval(() => {
           this.setState({
             count: this.state.count + 1
